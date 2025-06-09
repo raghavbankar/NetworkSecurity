@@ -1,0 +1,5 @@
+[ 2025-06-09 11:21:50,605 ] 15 root - INFO - Initiate the data ingestion
+[ 2025-06-09 11:21:55,134 ] 62 root - INFO - Performed Train test split
+[ 2025-06-09 11:21:55,216 ] 75 root - INFO - Exported Train and Test data
+[ 2025-06-09 11:21:55,218 ] 17 root - INFO - Data ingestion completed
+[ 2025-06-09 11:21:55,244 ] 22 root - INFO - Data Validation Initiated

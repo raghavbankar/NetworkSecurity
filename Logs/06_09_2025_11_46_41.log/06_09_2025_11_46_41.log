@@ -1,0 +1,14 @@
+[ 2025-06-09 11:46:43,889 ] 15 root - INFO - Initiate the data ingestion
+[ 2025-06-09 11:46:46,597 ] 62 root - INFO - Performed Train test split
+[ 2025-06-09 11:46:46,684 ] 75 root - INFO - Exported Train and Test data
+[ 2025-06-09 11:46:46,685 ] 17 root - INFO - Data ingestion completed
+[ 2025-06-09 11:46:46,701 ] 22 root - INFO - Data Validation Initiated
+[ 2025-06-09 11:46:46,790 ] 37 root - INFO - The length of the schema is -2
+[ 2025-06-09 11:46:46,790 ] 38 root - INFO - The length of the dataframe is 8844
+[ 2025-06-09 11:46:46,790 ] 37 root - INFO - The length of the schema is -2
+[ 2025-06-09 11:46:46,790 ] 38 root - INFO - The length of the dataframe is 2211
+[ 2025-06-09 11:46:46,791 ] 50 root - INFO - The number of num columns in schema is {schema_num_columns}
+[ 2025-06-09 11:46:46,792 ] 52 root - INFO - The number of num column in the dataframe is {num_columns_dataframe}
+[ 2025-06-09 11:46:46,792 ] 50 root - INFO - The number of num columns in schema is {schema_num_columns}
+[ 2025-06-09 11:46:46,792 ] 52 root - INFO - The number of num column in the dataframe is {num_columns_dataframe}
+[ 2025-06-09 11:46:47,031 ] 24 root - INFO - Data Validation completed

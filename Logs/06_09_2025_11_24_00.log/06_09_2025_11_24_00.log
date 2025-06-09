@@ -1,0 +1,9 @@
+[ 2025-06-09 11:24:03,700 ] 15 root - INFO - Initiate the data ingestion
+[ 2025-06-09 11:24:07,801 ] 62 root - INFO - Performed Train test split
+[ 2025-06-09 11:24:07,891 ] 75 root - INFO - Exported Train and Test data
+[ 2025-06-09 11:24:07,892 ] 17 root - INFO - Data ingestion completed
+[ 2025-06-09 11:24:07,902 ] 22 root - INFO - Data Validation Initiated
+[ 2025-06-09 11:24:07,968 ] 37 root - INFO - The length of the schema is -2
+[ 2025-06-09 11:24:07,968 ] 38 root - INFO - The length of the dataframe is 8844
+[ 2025-06-09 11:24:07,969 ] 37 root - INFO - The length of the schema is -2
+[ 2025-06-09 11:24:07,969 ] 38 root - INFO - The length of the dataframe is 2211

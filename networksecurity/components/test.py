@@ -1,0 +1,4 @@
+from project2.networksecurity.Utils.utils_main.utils import read_yaml_file
+from networksecurity.constant.Training_pipeline import DATA_SCHEMA_FILE_PATH
+schmea_config=read_yaml_file(DATA_SCHEMA_FILE_PATH)
+print(schmea_config)
