@@ -39,3 +39,10 @@ class Data_Validation_Config:
         self.train_invalid_data:str=os.path.join(self.invalid_data_dir,Training_pipeline.TRAIN_FILE_NAME)
         self.test_invalid_data:str=os.path.join(self.invalid_data_dir,Training_pipeline.TEST_FILE_NAME)
         self.drift_report_path:str=os.path.join(self.data_validation_dir,Training_pipeline.DATA_VALIDATION_DRIFT_REPORT_DIR,Training_pipeline.DATA_VALIDATION_DRIFT_REPORT_DIR)
+
+class Data_transform_config:
+    def __init__(self,training_pipeline_config:Training_pipelineConfig):
+        self.data_transform_dir:str=os.path.join(training_pipeline_config.artifact_dir,Training_pipeline.DATA_TRANSFORMATION_DIR_NAME)
+        self.data_transform_train_file_path:str=os.path.join(self.data_transform_dir,Training_pipeline.DATA_TRANSFORMATION_DATA_DIR,Training_pipeline.TRAIN_FILE_NAME.replace("csv","npy"))
+        self.data_transform_test_file_path:str=os.path.join(self.data_transform_dir,Training_pipeline.DATA_TRANSFORMATION_DATA_DIR,Training_pipeline.TEST_FILE_NAME.replace("csv","npy"))
+        self.data_transform_processed_object_file:str=os.path.join(self.data_transform_dir,Training_pipeline.DATA_TRANSFORMATION_OBJECT_DIR,Training_pipeline.PREPROCESSING_OBJECT_FILE_NAME)

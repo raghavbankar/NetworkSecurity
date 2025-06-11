@@ -2,7 +2,8 @@ from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logging.logger import logging
 from networksecurity.components.data_ingestion import Data_Ingestion
 from networksecurity.components.data_validation import Data_validation
-from networksecurity.entity.config_entity import Data_Ingestion_Config,Data_Validation_Config
+from networksecurity.components.data_transfromation import Data_transformation
+from networksecurity.entity.config_entity import Data_Ingestion_Config,Data_Validation_Config,Data_transform_config
 from networksecurity.entity.config_entity import Training_pipelineConfig
 import sys
 
@@ -23,6 +24,13 @@ if __name__=='__main__':
         data_validation_artifacts=data_validation.initiate_validation()
         logging.info("Data Validation completed")
         print(data_validation_artifacts)
+
+        data_transformation_config=Data_transform_config(training_pipelineconfig)
+        data_transform=Data_transformation(data_validation_artifacts,data_transformation_config)
+        logging.info("Data Transformation Initiated")
+        data_transform_artifacts=data_transform.initiate_transformation()
+        logging.info("Data Transformation Completed")
+        print(data_transform_artifacts)
     except Exception as e:
         raise NetworkSecurityException(e,sys)
     

@@ -1,0 +1,199 @@
+Abnormal_URL:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - &id001 !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    nQrgqYLn7z8=
+DNSRecord:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAA8D8=
+Domain_registeration_length:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAA8D8=
+Favicon:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    0EyQkK5x7z8=
+Google_Index:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAA8D8=
+HTTPS_token:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAA8D8=
+Iframe:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    zaBX73D/7z8=
+Links_in_tags:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    zw+o9lud4z8=
+Links_pointing_to_page:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    aQFXwmXw5j8=
+Page_Rank:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    vU61n6X36j8=
+Prefix_Suffix:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAA8D8=
+Redirect:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    nQrgqYLn7z8=
+Request_URL:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    tTRsiA/D7z8=
+Result:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    ZlhzeJev5j8=
+RightClick:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    EU3+////7z8=
+SFH:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    agKi6/n/7z8=
+SSLfinal_State:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    ytD/dRHe7z8=
+Shortining_Service:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    ixVbkPPK7z8=
+Statistical_report:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAA8D8=
+Submitting_to_email:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    T5fOlwRi5D8=
+URL_Length:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    a8+4tShA7j8=
+URL_of_Anchor:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    TsNsOyMn5T8=
+age_of_domain:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    x43UtvS17j8=
+double_slash_redirecting:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    LaqBXDv/7z8=
+having_At_Symbol:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    dP7/////7z8=
+having_IP_Address:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    ogCF////7z8=
+having_Sub_Domain:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    3mWJoBP97T8=
+on_mouseover:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAA8D8=
+popUpWidnow:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    wuXRbskT7T8=
+port:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    arJXsIDZ7T8=
+web_traffic:
+  drift_status: false
+  pvalue: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    GNo/vM3/7z8=

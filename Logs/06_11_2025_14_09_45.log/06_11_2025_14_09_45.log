@@ -1,0 +1,21 @@
+[ 2025-06-11 14:09:48,475 ] 16 root - INFO - Initiate the data ingestion
+[ 2025-06-11 14:09:54,314 ] 62 root - INFO - Performed Train test split
+[ 2025-06-11 14:09:54,389 ] 75 root - INFO - Exported Train and Test data
+[ 2025-06-11 14:09:54,403 ] 18 root - INFO - Data ingestion completed
+[ 2025-06-11 14:09:54,405 ] 23 root - INFO - Data Validation Initiated
+[ 2025-06-11 14:09:54,476 ] 37 root - INFO - The length of the schema is -2
+[ 2025-06-11 14:09:54,476 ] 38 root - INFO - The length of the dataframe is 8844
+[ 2025-06-11 14:09:54,476 ] 37 root - INFO - The length of the schema is -2
+[ 2025-06-11 14:09:54,476 ] 38 root - INFO - The length of the dataframe is 2211
+[ 2025-06-11 14:09:54,476 ] 50 root - INFO - The number of num columns in schema is {schema_num_columns}
+[ 2025-06-11 14:09:54,494 ] 52 root - INFO - The number of num column in the dataframe is {num_columns_dataframe}
+[ 2025-06-11 14:09:54,494 ] 50 root - INFO - The number of num columns in schema is {schema_num_columns}
+[ 2025-06-11 14:09:54,494 ] 52 root - INFO - The number of num column in the dataframe is {num_columns_dataframe}
+[ 2025-06-11 14:09:54,699 ] 25 root - INFO - Data Validation completed
+[ 2025-06-11 14:09:54,699 ] 30 root - INFO - Data Transformation Initiated
+[ 2025-06-11 14:09:54,699 ] 41 root - INFO - Transformation Started
+[ 2025-06-11 14:09:54,733 ] 54 root - INFO - Preprocessing Started
+[ 2025-06-11 14:09:54,733 ] 35 root - INFO - Preprocessor object Created
+[ 2025-06-11 14:09:54,744 ] 61 root - INFO - Preprocessing Completed
+[ 2025-06-11 14:09:54,763 ] 76 root - INFO - transformation completed
+[ 2025-06-11 14:09:54,763 ] 32 root - INFO - Data Transformation Completed
