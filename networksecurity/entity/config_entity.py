@@ -46,3 +46,10 @@ class Data_transform_config:
         self.data_transform_train_file_path:str=os.path.join(self.data_transform_dir,Training_pipeline.DATA_TRANSFORMATION_DATA_DIR,Training_pipeline.TRAIN_FILE_NAME.replace("csv","npy"))
         self.data_transform_test_file_path:str=os.path.join(self.data_transform_dir,Training_pipeline.DATA_TRANSFORMATION_DATA_DIR,Training_pipeline.TEST_FILE_NAME.replace("csv","npy"))
         self.data_transform_processed_object_file:str=os.path.join(self.data_transform_dir,Training_pipeline.DATA_TRANSFORMATION_OBJECT_DIR,Training_pipeline.PREPROCESSING_OBJECT_FILE_NAME)
+
+class Model_trainer_config:
+    def __init__(self,training_pipeline_config:Training_pipelineConfig):
+        self.model_trainer_dir:str=os.path.join(training_pipeline_config.artifact_dir,Training_pipeline.MODEL_TRAINER_DIR_NAME)
+        self.model_trained_model_file_path:str=os.path.join(self.model_trainer_dir,Training_pipeline.MODEL_TRAINER_DIR_NAME,Training_pipeline.MODEL_TRAINER_File_Name)
+        self.expected_accuracy:float=Training_pipeline.EXPECTED_ACCURACY
+        self.overfittin_underfitting_threshold:float=Training_pipeline.MODEL_TRAINER_OVER_FITTING_UNDER_FITTING_THRESHOLD

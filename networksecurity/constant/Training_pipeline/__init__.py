@@ -46,3 +46,10 @@ DATA_TRANSFORMATION_IMPUTER_PARAMS: dict = {
     "n_neighbors": 3,
     "weights": "uniform",
 }
+
+MODEL_TRAINER_DIR_NAME="Model_Trainer"
+MODEL_TRAINER_TRAINED_MODEL_DIR="Trained_model"
+MODEL_TRAINER_File_Name="Model.pkl"
+
+EXPECTED_ACCURACY:float=0.6
+MODEL_TRAINER_OVER_FITTING_UNDER_FITTING_THRESHOLD:float=0.05
