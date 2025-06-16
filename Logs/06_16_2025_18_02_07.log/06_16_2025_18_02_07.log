@@ -1,0 +1,28 @@
+[ 2025-06-16 18:02:12,612 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-06-16 18:02:12,616 ] 107 dagshub - INFO - Accessing as raghavbankar
+[ 2025-06-16 18:02:13,246 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/raghavbankar/NetworkSecurity "HTTP/1.1 200 OK"
+[ 2025-06-16 18:02:13,948 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-06-16 18:02:13,948 ] 107 dagshub - INFO - Initialized MLflow to track repo "raghavbankar/NetworkSecurity"
+[ 2025-06-16 18:02:13,956 ] 107 dagshub - INFO - Repository raghavbankar/NetworkSecurity initialized!
+[ 2025-06-16 18:02:14,332 ] 17 root - INFO - Initiate the data ingestion
+[ 2025-06-16 18:02:20,004 ] 62 root - INFO - Performed Train test split
+[ 2025-06-16 18:02:20,080 ] 75 root - INFO - Exported Train and Test data
+[ 2025-06-16 18:02:20,080 ] 19 root - INFO - Data ingestion completed
+[ 2025-06-16 18:02:20,096 ] 24 root - INFO - Data Validation Initiated
+[ 2025-06-16 18:02:20,196 ] 37 root - INFO - The length of the schema is -2
+[ 2025-06-16 18:02:20,196 ] 38 root - INFO - The length of the dataframe is 8844
+[ 2025-06-16 18:02:20,196 ] 37 root - INFO - The length of the schema is -2
+[ 2025-06-16 18:02:20,196 ] 38 root - INFO - The length of the dataframe is 2211
+[ 2025-06-16 18:02:20,196 ] 50 root - INFO - The number of num columns in schema is {schema_num_columns}
+[ 2025-06-16 18:02:20,198 ] 52 root - INFO - The number of num column in the dataframe is {num_columns_dataframe}
+[ 2025-06-16 18:02:20,198 ] 50 root - INFO - The number of num columns in schema is {schema_num_columns}
+[ 2025-06-16 18:02:20,199 ] 52 root - INFO - The number of num column in the dataframe is {num_columns_dataframe}
+[ 2025-06-16 18:02:20,393 ] 26 root - INFO - Data Validation completed
+[ 2025-06-16 18:02:20,400 ] 31 root - INFO - Data Transformation Initiated
+[ 2025-06-16 18:02:20,400 ] 41 root - INFO - Transformation Started
+[ 2025-06-16 18:02:20,433 ] 54 root - INFO - Preprocessing Started
+[ 2025-06-16 18:02:20,433 ] 35 root - INFO - Preprocessor object Created
+[ 2025-06-16 18:02:20,440 ] 61 root - INFO - Preprocessing Completed
+[ 2025-06-16 18:02:20,458 ] 76 root - INFO - transformation completed
+[ 2025-06-16 18:02:20,458 ] 33 root - INFO - Data Transformation Completed
+[ 2025-06-16 18:02:20,461 ] 36 root - INFO - Model training Started

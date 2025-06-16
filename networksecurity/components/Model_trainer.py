@@ -1,6 +1,8 @@
+import mlflow.sklearn
 import numpy as np 
 import pandas as pd
 import sys,os
+import mlflow 
 from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logging.logger import logging
 
@@ -10,6 +12,10 @@ from networksecurity.entity.config_entity import Model_trainer_config
 from networksecurity.Utils.utils_main.utils import save_numpy,save_object,load_numpy_arrray,evaluate_model,load_object  
 from networksecurity.Utils.ML_utils.metric.classifiacation_metric import get_classificatin_score
 from networksecurity.Utils.ML_utils.Model.estimator import NetworkModel
+#importing dagshub -- for remote repositories 
+
+import dagshub
+dagshub.init(repo_owner='raghavbankar', repo_name='NetworkSecurity', mlflow=True)
 
 #importing models
 
@@ -25,6 +31,18 @@ class ModelTrainer:
             self.data_transform_artifact=data_transform_artifact
         except Exception as e:
             raise NetworkSecurityException(e,sys)
+        
+    def track_mlflow(self,best_model,classification_metrics):
+        with mlflow.start_run():
+            f1_score=classification_metrics.f1_score
+            precision_score=classification_metrics.precision_score
+            recall_score=classification_metrics.recall_score
+
+            mlflow.log_metric("f1_score",f1_score)
+            mlflow.log_metric("precision_score",precision_score)
+            mlflow.log_metric("recall_score",recall_score)
+            mlflow.sklearn.log_model(best_model,"Model")
+
         
     def train_model(self,x_train,y_train,x_test,y_test):
         try:
@@ -84,9 +102,13 @@ class ModelTrainer:
 
             ## Track the Mlflow
 
+            self.track_mlflow(best_model,classification_train_metrics)
+
             y_test_pred=best_model.predict(x_test)
 
             classification_test_metrics=get_classificatin_score(y_true=y_test,y_pred=y_test_pred)
+
+            self.track_mlflow(best_model,classification_test_metrics)
 
             #loading the transfromation pickle file
             preprocessor = load_object(file_path=self.data_transform_artifact.transformed_object_file_path)
