@@ -19,7 +19,7 @@ def _setting(name, default):
 
 APP_NAME = "SentinelNet"
 APP_SUBTITLE = "Network Security Detection"
-BACKEND_URL = _setting("BACKEND_URL", "http://127.0.0.1:8000").rstrip("/")
+BACKEND_URL = _setting("BACKEND_URL", "https://networksecurity-txo5.onrender.com").rstrip("/")
 REQUEST_TIMEOUT = int(_setting("REQUEST_TIMEOUT", "30"))
 
 MODEL_INFO = {
