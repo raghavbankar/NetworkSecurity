@@ -1,4 +1,5 @@
 import mlflow.sklearn
+import mlflow.sklearn
 import numpy as np 
 import pandas as pd
 import sys,os
@@ -33,16 +34,19 @@ class ModelTrainer:
             raise NetworkSecurityException(e,sys)
         
     def track_mlflow(self,best_model,classification_metrics):
-        with mlflow.start_run():
-            f1_score=classification_metrics.f1_score
-            precision_score=classification_metrics.precision_score
-            recall_score=classification_metrics.recall_score
+        try:
+            with mlflow.start_run():
+                f1_score=classification_metrics.f1_score
+                precision_score=classification_metrics.precision_score
+                recall_score=classification_metrics.recall_score
 
-            mlflow.log_metric("f1_score",f1_score)
-            mlflow.log_metric("precision_score",precision_score)
-            mlflow.log_metric("recall_score",recall_score)
-            mlflow.sklearn.log_model(best_model,"Model")
-
+                mlflow.log_metric("f1_score",f1_score)
+                mlflow.log_metric("precision_score",precision_score)
+                mlflow.log_metric("recall_score",recall_score)
+                mlflow.sklearn.log_model(sk_model=best_model,name="Model")
+        except Exception as e:
+            raise NetworkSecurityException(e,sys)
+ 
         
     def train_model(self,x_train,y_train,x_test,y_test):
         try:

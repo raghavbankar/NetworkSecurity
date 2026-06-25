@@ -1,0 +1,23 @@
+{
+  "total_predictions": 11056,
+  "attack_predictions": 4836,
+  "normal_predictions": 6220,
+  "runs": [
+    {
+      "run": "Batch 20260625180127",
+      "time": "2026-06-25 18:01:27",
+      "mode": "Batch",
+      "records": 11055,
+      "attacks": 4836,
+      "normal": 6219
+    },
+    {
+      "run": "Single 20260625180243",
+      "time": "2026-06-25 18:02:43",
+      "mode": "Single",
+      "records": 1,
+      "attacks": 0,
+      "normal": 1
+    }
+  ]
+}

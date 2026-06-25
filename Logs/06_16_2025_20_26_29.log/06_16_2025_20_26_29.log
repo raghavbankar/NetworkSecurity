@@ -1,0 +1,33 @@
+[ 2025-06-16 20:26:34,987 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-06-16 20:26:35,000 ] 107 dagshub - INFO - Accessing as raghavbankar
+[ 2025-06-16 20:26:37,246 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/raghavbankar/NetworkSecurity "HTTP/1.1 200 OK"
+[ 2025-06-16 20:26:37,807 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-06-16 20:26:37,811 ] 107 dagshub - INFO - Initialized MLflow to track repo "raghavbankar/NetworkSecurity"
+[ 2025-06-16 20:26:37,811 ] 107 dagshub - INFO - Repository raghavbankar/NetworkSecurity initialized!
+[ 2025-06-16 20:26:38,158 ] 17 root - INFO - Initiate the data ingestion
+[ 2025-06-16 20:26:43,385 ] 62 root - INFO - Performed Train test split
+[ 2025-06-16 20:26:43,477 ] 75 root - INFO - Exported Train and Test data
+[ 2025-06-16 20:26:43,477 ] 19 root - INFO - Data ingestion completed
+[ 2025-06-16 20:26:43,481 ] 24 root - INFO - Data Validation Initiated
+[ 2025-06-16 20:26:43,568 ] 37 root - INFO - The length of the schema is -2
+[ 2025-06-16 20:26:43,568 ] 38 root - INFO - The length of the dataframe is 8844
+[ 2025-06-16 20:26:43,568 ] 37 root - INFO - The length of the schema is -2
+[ 2025-06-16 20:26:43,568 ] 38 root - INFO - The length of the dataframe is 2211
+[ 2025-06-16 20:26:43,568 ] 50 root - INFO - The number of num columns in schema is {schema_num_columns}
+[ 2025-06-16 20:26:43,570 ] 52 root - INFO - The number of num column in the dataframe is {num_columns_dataframe}
+[ 2025-06-16 20:26:43,570 ] 50 root - INFO - The number of num columns in schema is {schema_num_columns}
+[ 2025-06-16 20:26:43,570 ] 52 root - INFO - The number of num column in the dataframe is {num_columns_dataframe}
+[ 2025-06-16 20:26:43,815 ] 26 root - INFO - Data Validation completed
+[ 2025-06-16 20:26:43,815 ] 31 root - INFO - Data Transformation Initiated
+[ 2025-06-16 20:26:43,816 ] 41 root - INFO - Transformation Started
+[ 2025-06-16 20:26:43,849 ] 54 root - INFO - Preprocessing Started
+[ 2025-06-16 20:26:43,849 ] 35 root - INFO - Preprocessor object Created
+[ 2025-06-16 20:26:43,856 ] 61 root - INFO - Preprocessing Completed
+[ 2025-06-16 20:26:43,869 ] 76 root - INFO - transformation completed
+[ 2025-06-16 20:26:43,869 ] 33 root - INFO - Data Transformation Completed
+[ 2025-06-16 20:26:43,878 ] 36 root - INFO - Model training Started
+[ 2025-06-16 20:29:54,680 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000016FA7763E50>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /raghavbankar/NetworkSecurity.mlflow/api/2.0/mlflow/runs/create
+[ 2025-06-16 20:29:58,832 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000016FA7763880>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /raghavbankar/NetworkSecurity.mlflow/api/2.0/mlflow/runs/create
+[ 2025-06-16 20:30:07,821 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000016FA7763A90>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /raghavbankar/NetworkSecurity.mlflow/api/2.0/mlflow/runs/create
+[ 2025-06-16 20:30:23,985 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000016FA77636D0>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /raghavbankar/NetworkSecurity.mlflow/api/2.0/mlflow/runs/create
+[ 2025-06-16 20:30:56,718 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=7, redirect=7, status=7)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000016FA7761C30>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /raghavbankar/NetworkSecurity.mlflow/api/2.0/mlflow/runs/create
